@@ -6,9 +6,9 @@ MailAdresi
  #Parametleri dışarıdan alacaksak burası aktif edilir
 
  #Param(
-	[parameter(Mandatory=$true)]
-	[String]$KullaniciAdi
-  )
+#	[parameter(Mandatory=$true)]
+#	[String]$KullaniciAdi
+ # )
  
 #exchange komutlarını tanıtmak için
 Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
